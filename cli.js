@@ -54,7 +54,7 @@ async function run() {
     console.log();
 
     execSync(
-      `npx react-native init ${appName} --template react-native-template-react-native-web`,
+      `npx react-native init ${appName} --template react-native-web`,
       {stdio: [0, 1, 2]},
     );
 
